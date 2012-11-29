@@ -8,3 +8,7 @@ Scenariusz: preznetacja produktów ekologicznych na początku listy
 Zakladając:  w katalogu są produkty ekologiczne 
 Jeśli: wyszukuję produkty
 Wtedy: produkty ekologiczne pojawiają się jako pierwsze na liście produktów
+
+Scenariusz: dział ekologiczny zawiera tylko produkty ekologiczne
+Jeśli: wejdę do działu ekologicznego
+Wtedy: tylko produkty ekologiczne zostaną pokazane
