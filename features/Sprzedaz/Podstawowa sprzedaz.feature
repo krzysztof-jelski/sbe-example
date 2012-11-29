@@ -5,9 +5,11 @@ Założenia:
  Zakładając że jestem uwierzytelniony
 
 Scenariusz: Składanie zamówienia
-Zakładając że składanie zamówienia działa
+Zakładając że mam produkty w koszyku
 Jeżeli złożę zamówienie
-Wtedy złóżyłem zamówienie
+I dokonam płatności
+Wtedy otrzymuję potwierdzenie złożenia zamówienia
+I produkty są sprzedane
 
 Scenariusz: Dodawanie do koszyka
 Zakładając że w systemie istnieje produkt 'Serek Camembert'
