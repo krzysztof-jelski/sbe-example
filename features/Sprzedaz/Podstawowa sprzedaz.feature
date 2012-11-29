@@ -7,9 +7,7 @@ Założenia:
 Scenariusz: Składanie zamówienia
 Zakładając że mam produkty w koszyku
 Jeżeli złożę zamówienie
-I dokonam płatności
-Wtedy otrzymuję potwierdzenie złożenia zamówienia
-I produkty jest sprzedany
+Wtedy złóżyłem zamówienie
 
 Scenariusz: Dodawanie do koszyka
 Zakładając że w systemie istnieje produkt 'Serek Camembert'
