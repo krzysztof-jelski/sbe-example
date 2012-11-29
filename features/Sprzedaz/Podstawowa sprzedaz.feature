@@ -4,15 +4,18 @@ Właściwość: Podstawowa sprzedaż.
 Założenia: 
  Zakładając że jestem uwierzytelniony
 
-Scenariusz: Kup jeden produkt
+Scenariusz: Składanie zamówienia
+Zakładając że mam produkty w koszyku
+Jeżeli złożę zamówienie
+I dokonam płatności
+Wtedy otrzymuję potwierdzenie złożenia zamówienia
+I produkty jest sprzedany
+
+Scenariusz: Dodawanie do koszyka
 Zakładając że w systemie istnieje produkt 'Serek Camembert'
 I koszyk jest pusty
 Jeżeli dodaję do koszyka 'Serek Camembert'
 Wtedy w koszyku jest tylko 'Serek Camembert'
-Jeżeli złożę zamówienie
-I dokonam płatności
-Wtedy otrzymuję potwierdzenie złożenia zamówienia
-I produkt jest sprzedany
 
 Scenariusz: Sumowanie produktów w koszyku
 
