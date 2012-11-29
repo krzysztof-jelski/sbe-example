@@ -5,7 +5,7 @@ Założenia:
  Zakładając że jestem uwierzytelniony
 
 Scenariusz: Składanie zamówienia
-Zakładając że mam produkty w koszyku
+Zakładając że składanie zamówienia działa
 Jeżeli złożę zamówienie
 Wtedy złóżyłem zamówienie
 
