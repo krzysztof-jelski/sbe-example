@@ -1,13 +1,9 @@
 #language: pl
 Właściwość: Promocje cenowe
 
-Założenia:
-  Zakładając że istnieją produkty
-
 Scenariusz: Dodawanie promocji cenowej produktu
   Zakładając że jestem uprawniony do administracji promocjami
-  Jeżeli wybieram produkt
-  I wprowadzam cenę promocyjną
+  Jeżeli wprowadzam cenę promocyjną dla produktu
   Wtedy produkt ma nową cenę
   I produkt oznaczony jest wizualnie jako promocyjny
 
@@ -23,8 +19,6 @@ Scenariusz: Powiadamianie o promocjach
 
 Scenariusz: Dodawanie promocji wiązanej
   Zakładając że jestem uprawniony do administracji promocjami
-  Jeżeli wybieram produkt bazowy
-  I wybieram produkt bonusowy
-  I podaję próg bonusu
-  Wtedy produkt bazowy jest oznaczony wizualnie jako promocyjny
-  I przy produkcie bazowym wyświetlane jest odniesienie do produktu bonusowego
+  Jeżeli definiuję promocję wiązaną: 2 x "jabłko", "gruszka" gratis
+  Wtedy produkt "jabłko" jest oznaczony wizualnie jako promocyjny
+  I przy produkcie "jabłko" wyświetlane jest odniesienie do produktu "gruszka"
