@@ -1,1 +1,5 @@
 ._redcar
+.classpath
+.project
+.settings
+target

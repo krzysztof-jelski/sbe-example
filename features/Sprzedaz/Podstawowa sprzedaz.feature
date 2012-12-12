@@ -1,7 +1,7 @@
 #language:pl
 Właściwość: Podstawowa sprzedaż.
 
-Założenia: 
+Założenia: Uwierzytelniony użytkownik
  Zakładając że jestem uwierzytelniony
 
 Scenariusz: Składanie zamówienia
@@ -19,4 +19,3 @@ Wtedy w koszyku jest tylko 'Serek Camembert'
 
 Scenariusz: Sumowanie produktów w koszyku
 
-Właściwość: Wyszukiwanie produktów
